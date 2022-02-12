@@ -76,7 +76,7 @@ header .container {
   outline: none;
 }
 .btn:hover {
-  box-shadow: none;
+  box-shadow: 4px 4px 0 0 var(--font-color);
 }
 
 .wallet-btn {
