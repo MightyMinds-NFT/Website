@@ -55,7 +55,12 @@ header .container {
   gap: 2rem;
   align-items: center;
 }
+footer.container {
+  flex-direction: row;
+  justify-content:stretch;
+  align-items:center;}
 
+  
 /* BUTTONS */
 
 .btn {
@@ -181,7 +186,3 @@ section {
   }
 }
  
-footer.container {
-  flex-direction: row;
-  justify-content:stretch;
-  align-items:center;}
