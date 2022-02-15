@@ -57,10 +57,10 @@ header .container {
 }
 footer {
   box-shadow: var(--header-shadow);}
-  
-footer.container {
+
+footer .container {
   flex-direction: row;
-  justify-content:stretch;
+  justify-content:space-between;
   align-items:center;}
 
 
