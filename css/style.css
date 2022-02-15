@@ -56,12 +56,17 @@ header .container {
   align-items: center;
 }
 footer {
-  box-shadow: var(--header-shadow);}
-
+  box-shadow: var(--header-shadow);
+ padding-top: 50px;
+ padding-bottom: 50px;
+ 
+}
+ 
 footer .container {
   flex-direction: row;
-  justify-content:space-between;
-  align-items:center;}
+
+  align-items:center;
+}
 
 
 /* BUTTONS */
