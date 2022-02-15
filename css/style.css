@@ -55,12 +55,15 @@ header .container {
   gap: 2rem;
   align-items: center;
 }
+footer {
+  box-shadow: var(--header-shadow);}
+  
 footer.container {
   flex-direction: row;
   justify-content:stretch;
   align-items:center;}
 
-  
+
 /* BUTTONS */
 
 .btn {
