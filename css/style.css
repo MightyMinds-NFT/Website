@@ -55,19 +55,6 @@ header .container {
   gap: 2rem;
   align-items: center;
 }
-footer {
-  box-shadow: var(--header-shadow);
- padding-top: 50px;
- padding-bottom: 50px;
- 
-}
- 
-footer .container {
-  flex-direction: row;
-justify-content: center;
-  align-items:center;
-  color:var(--font-color);
-}
 
 
 /* BUTTONS */
@@ -194,4 +181,21 @@ section {
     font-size: 1rem;
   }
 }
- 
+ /*footer*/
+footer {
+  box-shadow: var(--header-shadow);
+  flex-direction: row;
+  
+}
+ footer .container {
+  align-items: center;
+  height: 80px;
+  
+ }
+
+
+footer a {
+text-decoration: underline;
+  color:var(--font-color);
+ padding-top: 10px; 
+}
