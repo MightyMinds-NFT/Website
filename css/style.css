@@ -13,6 +13,7 @@
   --btn-bg-color: #00badb;
   --accent-color: #000000;
   --header-shadow: rgb(44,184,219) 0px 0px 5px;
+  
 }
 
 * {
@@ -48,6 +49,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .menu {
