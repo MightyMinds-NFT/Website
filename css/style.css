@@ -47,7 +47,7 @@
 
 #navbar__logo{
 background-color:#232425 ;
-background-image: linear-gradient(to top, #00badb 0%,#90cdd8
+background-image: linear-gradient(to top, #00badb 0%,#ff0000
 100%);
 background-size: 100%;
 -webkit-background-clip: text;
@@ -58,7 +58,7 @@ display: flex;
 align-items: center;
 cursor: pointer;
 text-decoration: none;
-font-size: 2rem;
+font-size: 20px;
 }
 
 .fa-gem{
@@ -119,14 +119,14 @@ font-size: 2rem;
 
 
 
-@media screen and (max-width:800px) /*960*/{
+@media screen and (max-width:800px) {
   .navbar__container{
     display: flex;
     justify-content: space-between;
     height: 80px;
     z-index:1;
     width: 100%;
-    max-width: 800px;
+    max-width: 1300px;
     padding: 0 ;
   }
 .navbar__menu{
