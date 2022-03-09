@@ -173,7 +173,8 @@ font-size: 2rem;
   display: table;
 }
 #mobile-menu{
-  position: absolute;
+  position: sticky; /*absolute*/
+
   top: 20%;
   right: 5%;
   transform: translate(5%,20%);
