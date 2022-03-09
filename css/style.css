@@ -47,7 +47,7 @@
 
 #navbar__logo{
 background-color:#232425 ;
-background-image: linear-gradient(to top, #00badb 0%,#ff0000
+background-image: linear-gradient(to top, #00badb 0%,#ff1e00
 100%);
 background-size: 100%;
 -webkit-background-clip: text;
@@ -58,11 +58,11 @@ display: flex;
 align-items: center;
 cursor: pointer;
 text-decoration: none;
-font-size: 20px;
+font-size: 2rem;
 }
 
 .fa-gem{
-  margin-right: 0.5rem;
+  margin-right:0.5rem;
 }
 
 .navbar__menu{
@@ -98,7 +98,7 @@ font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
+  /*text-decoration: none;*/
   padding: 10px 20px;
   height: 100%;
   width: 100%;
