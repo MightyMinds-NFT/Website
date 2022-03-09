@@ -149,6 +149,7 @@ font-size: 2rem;
   z-index: 99;
   height: 50vh;
   font-size: 1.6rem;
+  box-shadow: var(--header-shadow);
 }
 #navbar__logo{
   padding-left: 25px;
@@ -201,6 +202,12 @@ font-size: 2rem;
 }
 #mobile.menu.is-active .bar:nth-child(3){
   transform: translate(-8px) rotate(-45deg);
+}
+.navbar__socials{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  
 }
 }
 
