@@ -119,14 +119,14 @@ font-size: 2rem;
 
 
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:800px) /*960*/{
   .navbar__container{
     display: flex;
     justify-content: space-between;
     height: 80px;
     z-index:1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 800px;
     padding: 0 ;
   }
 .navbar__menu{
