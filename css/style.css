@@ -13,7 +13,7 @@
   --btn-bg-color: #00badb;
   --accent-color: #000000;
   --header-shadow: rgb(44,184,219) 0px 0px 5px;
-  
+  --logo: #ff640a;
 }
 
 * {
@@ -45,9 +45,9 @@
 }
 #navbar__logo{
 background-color:#232425 ;
-text-shadow: 2px 2px 0 var(--font-color);
-background-image: linear-gradient(to top, #00badb 0%,#ff1e00
-100%);
+text-shadow: 2px 2px 0 var(--logo);
+/*background-image: linear-gradient(to top, #00badb 0%,#ff1e00
+100%);*/
 background-size: 100%;
 -webkit-background-clip: text;
 -moz-background-clip: text;
@@ -358,14 +358,14 @@ section {
 }
 
 .countdown h1 {
-    background: linear-gradient( #00badb 0%,#ff1e00
-    100%) ;
+    /*background: linear-gradient( #00badb 50%,#000000
+    100%) ;*/
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   display: flex;
   align-items: center;
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--font-color);
+  text-shadow: 2px 2px 0 var(--logo);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
