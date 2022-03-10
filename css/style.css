@@ -241,6 +241,9 @@ body {
   font-family: var(--font-primary);
 }
 
+
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -354,16 +357,14 @@ section {
 }
 
 .countdown h1 {
-  background-image: linear-gradient(to top, #00badb 0%,#ff1e00
-100%);
-background-size: 100%;
--webkit-background-clip: text;
--moz-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-text-fill-color: transparent;
+    background: linear-gradient( #00badb 0%,#ff1e00
+    100%) ;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
   display: flex;
   align-items: center;
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
