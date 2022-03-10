@@ -42,9 +42,7 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
-
 }
-
 #navbar__logo{
 background-color:#232425 ;
 background-image: linear-gradient(to top, #00badb 0%,#ff1e00
@@ -194,14 +192,14 @@ font-size: 2rem;
   display: block;
   cursor: pointer;
 }
-#mobile.menu.is-active .bar:nth-child(2){
+#mobile.menu.is-active .bar:nth-child(2) {
   opacity: 0;
 }
 #mobile.menu.is-active .bar:nth-child(1){
-  transform: translate(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
 }
 #mobile.menu.is-active .bar:nth-child(3){
-  transform: translate(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 .navbar__socials{
   display: flex;

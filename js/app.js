@@ -1,10 +1,4 @@
-const menu =document.querySelector('#mobile-menu');
-const menuLinks =document.querySelector('.navbar__menu');
 
-menu.addEventListener('click', function(){
-  menu.classList.toggle('is-active');
-  menuLinks.classList.toggle('active');
-});
 
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
@@ -139,3 +133,4 @@ async function fetchWithRetry(url)  {
     return fetch_retry(url);
   });
 }
+
