@@ -410,10 +410,11 @@ footer {
   flex-direction: row;
   
 }
- footer .container {
+.footer__container {
   align-items: center;
   height: 80px;
-  
+  padding: 5rem 0;
+  justify-content: center;
  }
 
 
