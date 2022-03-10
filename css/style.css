@@ -45,6 +45,7 @@
 }
 #navbar__logo{
 background-color:#232425 ;
+text-shadow: 2px 2px 0 var(--font-color);
 background-image: linear-gradient(to top, #00badb 0%,#ff1e00
 100%);
 background-size: 100%;
