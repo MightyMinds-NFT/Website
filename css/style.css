@@ -370,7 +370,7 @@ section {
 }
 
 .countdown p {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
@@ -435,7 +435,7 @@ footer {
   height: 100%;
   cursor: pointer;
 text-decoration: underline;
-font-size: 0.8rem;
+font-size: 1rem;
  display: flex;
  color: #ffffff;
 
