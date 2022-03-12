@@ -1,8 +1,12 @@
-/* FONTS */
+
+
+/*               FONTS               */
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* GLOBAL STYLES */
+
+
+/*          GLOBAL STYLES          */
 
 :root {
   --font-primary: 'Poppins', sans-serif;
@@ -21,6 +25,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
+/*             NAVIGATION             */
+
 .navbar {
   background: #000000;
   height: 80px;
@@ -117,6 +126,7 @@ font-size: 2rem;
 }
 
 
+/*          NAVBAR MEDIA          */
 
 @media screen and (max-width:1300px) {
   .navbar__container{
@@ -213,26 +223,7 @@ font-size: 2rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*               BODY               */
 
 body {
   background-color: var(--bg-color);
@@ -245,8 +236,6 @@ body {
 }
 
 
-
-
 .container {
   display: flex;
   flex-direction: column;
@@ -256,9 +245,7 @@ body {
 }
 
 
-
-
-/* HEADER */
+/*         HEADER         */
 
 /*header {
   box-shadow: var(--header-shadow);
@@ -281,7 +268,7 @@ header .container {
 
 
 
-/* BUTTONS */
+/*        BUTTONS       */
 
 .btn {
   display: inline-block;
@@ -316,7 +303,9 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
-/* COUNTDOWN SECTION */
+
+
+/*       COUNTDOWN SECTION      */
 
 section {
   flex: 1 1 auto;
@@ -387,14 +376,19 @@ section {
   text-align: center;
 }
 
-/* OWNER STYLES */
+
+
+
+/*          OWNER STYLES         */
 
 .owner-status {
   font-size: 2rem;
   text-align: center;
 }
 
-/* MEDIA QUERIES */
+
+
+/*        MEDIA QUERIES        */
 
 @media screen and (max-width: 820px) {
   .menu {
@@ -412,7 +406,10 @@ section {
     font-size: 1rem;
   }
 }
- /*footer*/
+ 
+
+
+/*      FOOTER     */
 footer {
   background: #000000;
   height: 80px;
@@ -436,11 +433,16 @@ footer {
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  
   cursor: pointer;
 text-decoration: underline;
-font-size: 1.2rem;
+font-size: 0.8rem;
  display: flex;
  color: #ffffff;
+
+}
+@media screen and (max-width: 820px) {
+  .footer__tandc {
+    font-size: 0.7rem;
+  }
 
 }
