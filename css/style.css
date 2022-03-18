@@ -255,7 +255,14 @@ body {
   font-family: var(--font-primary);
   
 }
+.slogan {
+  font-size: 1.25rem;
+  font-family: var(--font-secondary);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
 
+}
 
 .container {
   display: flex;
