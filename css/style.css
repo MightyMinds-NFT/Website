@@ -380,7 +380,7 @@ section {
 .countdown p {
   font-size: 1.35rem;
   font-family: var(--font-secondary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -476,6 +476,11 @@ footer {
   text-align: center;
   text-decoration: underline;
 }
+.tandc__email{
+color: #00badb;
+}
+
+
 .TandC__Subheadings{
   text-decoration: underline;
   padding-bottom: 1rem;
