@@ -458,3 +458,32 @@ footer {
   }
 
 }
+
+
+
+
+/*         T&C HTML         */
+
+.TandC__layout{
+  display: flex;
+  flex-direction: column;
+  max-width:1000px ;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  margin:  auto;
+}
+.TandC__layout h1{
+  text-align: center;
+  text-decoration: underline;
+}
+.TandC__Subheadings{
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+@media screen and (max-width: 820px) {
+  .TandC__layout {
+    font-size: 1rem;
+  }
+
+}
