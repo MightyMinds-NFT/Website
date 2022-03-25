@@ -255,11 +255,9 @@ body {
   font-family: var(--font-primary);
   
 }
-.slogan {
+.body__slogan {
   font-size: 1.25rem;
   font-family: var(--font-secondary);
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   text-align: center;
 
 }
@@ -379,7 +377,7 @@ section {
 .countdown p {
   font-size: 1.35rem;
   font-family: var(--font-secondary);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -421,29 +419,30 @@ footer {
   background: #000000;
   font-size: 1.2rem;
   box-shadow: var(--header-shadow);
+  display: flex;
+  
 }
 .footer__container {
   display: flex;
+  justify-content: center;
   height: 80px;
   width: 100%;
   max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 100px;
+  margin: 0  auto;
+
  }
 
 
 .footer__tandc {
   display: flex;
   align-items: center;
-  
-  text-decoration: none;
-  padding: 0 1rem;
   height: 100%;
+  padding: 0 1.5rem;
   cursor: pointer;
-text-decoration: underline;
-font-size: 1rem;
- display: flex;
- color: #ffffff;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  display: flex;
+  color: #ffffff;
 
 }
 
