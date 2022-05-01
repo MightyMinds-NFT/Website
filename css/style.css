@@ -417,14 +417,24 @@ section {
 }
  
 /* Traits */
+.layers {
+  max-width: 1200px;
+ 
+}
 
+.traits__head {
+  padding: 1rem;
+}
 .traits__container {
   max-width: 1200px;
-  margin: auto;
+  
   overflow: auto;
+  padding: 2rem;
+  
 }
 .traits__container h1 {
   margin: 10px;
+  padding: 1rem;
 }
 .traits {
   text-align: center;
@@ -435,7 +445,9 @@ font-size: 1.4rem;
 
 .traits__images {
  
- 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: 5px;
   padding: 5px;
 background-color: #000000;
@@ -452,7 +464,7 @@ background-color: #000000;
 
 .traits__headings {
   padding: 10px;
-  text-align: center;
+  
 }
 
 
