@@ -419,7 +419,7 @@ section {
 /* Traits */
 .layers {
   max-width: 1200px;
- 
+ margin: auto;
 }
 
 .traits__head {
@@ -448,12 +448,14 @@ font-size: 1.4rem;
   justify-content: center;
   align-items: center;
   text-align: center;
+  
   margin: 5px;
   padding: 5px;
 background-color: #000000;
   border: 5px solid #00badb;
+  height: 200px;
   float: left;
-  width: 80px;
+  width:100px;
 }
  
 .traits__images img {
