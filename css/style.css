@@ -435,6 +435,7 @@ section {
 .traits__container h1 {
   margin: 10px;
   padding: 1rem;
+  text-decoration: underline;
 }
 .traits {
   text-align: center;
