@@ -469,9 +469,11 @@ background-color: #000000;
 }
 
 
+/*      roadmap     */
 
-
-
+.roadmap__heading {
+  align-items: center;
+}
 
 
 /*      FOOTER     */
