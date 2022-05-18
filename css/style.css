@@ -269,7 +269,9 @@ body {
   flex-direction: column;
   max-width:1300px ;
   margin: 0 auto;
-  padding: 1rem 1rem;
+  padding-left: 1rem ;
+  padding-top: .8rem;
+  padding-bottom: 1rem;
 }
 
 
