@@ -424,14 +424,14 @@ section {
 
 .traits__head {
   padding-top: 1rem;
-  padding-left: 3.2rem;
+  padding-left: 2rem;
   text-decoration: underline;
 }
 .traits__container {
   max-width: 1200px;
   
   overflow: auto;
-  padding-left: 3rem;
+  padding-left: 2rem;
   padding-top: .5rem;
   padding-bottom: 2rem;
 }
