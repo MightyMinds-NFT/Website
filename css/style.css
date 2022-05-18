@@ -549,7 +549,7 @@ text-decoration: underline #00badb;
   }
   .roadmap__heading {
     font-size: 2rem;
-    text-decoration: underline #00badb;
+    text-decoration: underline;
   }
 }
 
