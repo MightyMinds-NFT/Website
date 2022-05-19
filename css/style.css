@@ -284,12 +284,9 @@ body {
   max-width:600px ;
 }
 .sneak__peeks img{
- 
-  width:100% ;
+  width:80% ;
   height: auto;
-float: left;
-margin: 5px;
-  padding: 5px;
+  padding: .5rem;
 }
 
 
@@ -380,7 +377,7 @@ section {
   border-radius: 0 0 4px 4px;
 }
 
-.countdown h1 {
+.color {
     /*background: linear-gradient( #00badb 50%,#000000
     100%) ;*/
     -webkit-background-clip: text;
