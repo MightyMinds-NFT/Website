@@ -596,9 +596,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .faq__head {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
-padding-left: 1.5rem;
-padding-bottom: 1rem ;
-padding-top: .6rem;
+
+padding-bottom: 2rem ;
+padding-top: 1.4rem;
 }
 .faqs__container .questions__container{
 
