@@ -278,7 +278,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-decoration: underline;
+  
   padding: 5px;
   max-width:1200px ;
 }
@@ -291,9 +291,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-decoration: underline;
+  
   margin: auto;
-  padding: 1rem;
+  
   max-width:600px ;
  
 }
@@ -306,8 +306,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.4rem;
-  padding: 1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
 }
 
 /*        BUTTONS       */
