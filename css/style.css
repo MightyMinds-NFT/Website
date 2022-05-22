@@ -129,7 +129,7 @@ font-size: 2rem;
 
 /*          NAV MEDIA          */
 
-@media screen and (max-width:12000px) {
+@media screen and (max-width:1200px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -145,7 +145,7 @@ font-size: 2rem;
   margin: 0;
   width: 100%;
   position: absolute;
-  top: -10000px;
+  top: -100px;
   opacity: 0;
   transition: all 0.5s ease;
   height: 50vh;
@@ -157,7 +157,7 @@ font-size: 2rem;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 99;
-  height: max-content;
+  height:fit-content;
   font-size: 1.6rem;
   box-shadow: var(--header-shadow);
 }
