@@ -49,7 +49,7 @@
   height: 80px;
   z-index: 999;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 100px;
 }
@@ -129,14 +129,14 @@ font-size: 2rem;
 
 /*          NAV MEDIA          */
 
-@media screen and (max-width:1200px) {
-  .navbar__container{
+@media screen and (max-width:12000px) {
+  .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
     z-index:1;
-    width: 100%;
-    max-width: 100%;
+  
+ 
     padding: 0 ;
   }
 .navbar__menu{
