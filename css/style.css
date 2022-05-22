@@ -159,6 +159,7 @@ font-size: 2rem;
   z-index: 99;
   height:auto ;
   font-size: 1.6rem;
+  padding: auto;
   box-shadow: var(--header-shadow);
 }
 #navbar__logo{
