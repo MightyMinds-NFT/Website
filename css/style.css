@@ -179,7 +179,6 @@ font-size: 2rem;
 
 .navbar__links{
   text-align: center;
-  
   width: 100%;
   display: table;
 }
@@ -269,7 +268,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width:1300px ;
-  margin: 0 auto;
+ 
   padding-left: 1rem ;
   padding-top: .8rem;
   padding-bottom: 1rem;
