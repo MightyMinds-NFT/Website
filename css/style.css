@@ -50,8 +50,8 @@
   z-index: 999;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 100px;
+
+
 }
 #navbar__logo{
 background-color:#232425 ;
@@ -89,6 +89,7 @@ font-size: 2rem;
 .navbar__links{
   color: #ffffff;
   display: flex;
+  font-size: 1.4rem;
   align-items: center;
   justify-content: center;
   text-decoration: none;
@@ -136,9 +137,6 @@ font-size: 2rem;
     justify-content: space-between;
     height: 80px;
     z-index:1;
-  
- 
-    padding: 0 ;
   }
 .navbar__menu{
   display: grid;
@@ -181,6 +179,7 @@ font-size: 2rem;
   text-align: center;
   width: 100%;
   display: table;
+  font-size: 1.8rem;
   padding-top: .5rem;
   padding-bottom: 1rem;
 }
