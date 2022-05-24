@@ -159,7 +159,7 @@ font-size: 2rem;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 99;
-  height: 500px;
+  height: 550px;
   font-size: 1.6rem;
   box-shadow: var(--header-shadow);
 }
