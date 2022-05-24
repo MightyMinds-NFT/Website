@@ -155,7 +155,7 @@ font-size: 2rem;
 }
 .navbar__menu.active{
   background: #000000 ;
-  top: 100%;
+  top: 90%;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 99;
@@ -218,7 +218,7 @@ font-size: 2rem;
 .navbar__socials{
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   gap: 2rem;
   
 }
